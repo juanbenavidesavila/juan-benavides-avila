@@ -185,9 +185,7 @@ body{
     left:11px;
     border:1px solid #17191B;
     border-radius:100%;
-  }
-  
-  
+  } 
   
   .timeline-box{
     position:relative;
@@ -241,7 +239,6 @@ body{
   }
   .certificate-text{
     text-align: center;
-
   }
 
   
@@ -281,7 +278,6 @@ body{
 }
 
 .footer-links {
-  display: flex;
   gap: var(--gutter-small);
   list-style-type: none;
 }

@@ -460,8 +460,7 @@ main {
   min-block-size: 100vh;
   position: fixed;
   width: 100%;
-  background-color: green;
-  background-image: var(--gradient-brand);
+  background-color: gray;
   transition: 450ms var(--easing);
   z-index: 3;
 }
@@ -571,6 +570,13 @@ body.light .header {
 /* --------------------------------- */
 /* ----- Clients -----*/
 /* --------------------------------- */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
 
 .logos {
   display: flex;
@@ -1084,6 +1090,16 @@ body.dark .work-links img {
 
 .contact-text {
   margin-block-end: var(--gutter-small);
+}
+
+.certificate{
+  padding-top: 20px;
+}
+.card-text{
+  text-align: center;
+}
+.certificate-text{
+  text-align: center;
 }
 
 .signatures {
